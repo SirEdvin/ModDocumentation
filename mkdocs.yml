@@ -1,0 +1,18 @@
+site_name: SirEdvin's Mods
+theme:
+  name: material
+  palette: 
+    scheme: slate
+  
+nav:
+  - 'Home': index.md
+  - 'Turtlematic':
+    - 'Home': turtlematic/index.md
+    - 'APIs': turtlematic/api.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: true
