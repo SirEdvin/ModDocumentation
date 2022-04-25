@@ -8,11 +8,29 @@ nav:
   - 'Home': index.md
   - 'Turtlematic':
     - 'Home': turtlematic/index.md
-    - 'APIs': turtlematic/api.md
-
+    - 'APIs':
+      - 'Turtlematic APIs': turtlematic/api/introduction.md
+      - 'Configuration API': turtlematic/api/configuration.md
+      - 'Operation API': turtlematic/api/operation.md
+      - 'Fuel API': turtlematic/api/fuel.md
+      - 'Look API': turtlematic/api/look.md
+      - 'Interaction API': turtlematic/api/interaction.md
+      - 'Capture API': turtlematic/api/capture.md
+      - 'Scan API': turtlematic/api/scan.md
+      - 'Warp API': turtlematic/api/warp.md
+    - "Automata":
+      - "Base automata": turtlematic/automata/automata.md
+      - "End automata": turtlematic/automata/end.md
+      - "Husbandry automata": turtlematic/automata/husbandry.md
+    - "Miscellaneous":
+      - "Turtle chatter": turtlematic/miscellaneous/turtle_chatter.md
+      - "Creative chest": turtlematic/miscellaneous/creative_chest.md
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - attr_list
+  - pymdownx.tabbed:
+      alternate_style: true 
   - toc:
       permalink: true
