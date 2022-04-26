@@ -577,6 +577,10 @@
 <h1 id="fuel-api">Fuel API<a class="headerlink" href="#fuel-api" title="Permanent link">&para;</a></h1>
 <p>Most of the usage for fuel API comes when you're trying to degrease cooldown for specific operations. If you increase fuel consumption rate for peripheral, automatically it will decrease cooldowns after peripheral method usage (but not initial cooldowns). For example, if click operation required 1 fuel point to perform and will have 5 seconds cooldown, with fuel consumption 2 you can perform click operation one in 2.5 seconds, but in cost of 2 fuel point.</p>
 <p>Take a note that fuel point will grow faster, than cooldown drops. Basically, <code>consumedFuel = 2^(fuelConsumtionRate - 1)</code>. So fuelConsumtionRate 3 will require 4 fuel points, and fuelConsumtionRate 4 will require 8 fuel points, etc.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><code>fuelConsumptionRate</code> should be positive integer</p>
+</div>
 <table>
 <thead>
 <tr>
