@@ -2,6 +2,9 @@
 
 Your first automata core, that starts your journey into mystery turtlematic world.
 
+!!! picture inline end
+    ![Header](./../../images/automata_turtle.png){ align=right }
+
 ## Supported APIs
 
 - [Configuration API](../api/configuration.md)

@@ -2,6 +2,9 @@
 
 Advanced automata that can harness power of the End.
 
+!!! picture inline end
+    ![Header](./../../images/end_automata_turtle.png){ align=right }
+
 ## Supported APIs
 
 - [Configuration API](../api/configuration.md)

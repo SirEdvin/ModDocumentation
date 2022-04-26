@@ -4,6 +4,10 @@ Most of the usage for fuel API comes when you're trying to degrease cooldown for
 
 Take a note that fuel point will grow faster, than cooldown drops. Basically, `consumedFuel = 2^(fuelConsumtionRate - 1)`. So fuelConsumtionRate 3 will require 4 fuel points, and fuelConsumtionRate 4 will require 8 fuel points, etc.
 
+!!! warning
+
+    `fuelConsumptionRate` should be positive integer
+
 | Function                             | Returns | Description                                                                                                                    |
 |--------------------------------------|---------|--------------------------------------------------------------------------------------------------------------------------------|
 | getFuelLevel()                       | number  | Returns current fuel level, for turtle is equivalent for `turtle.getFuelLevel()`                                               |

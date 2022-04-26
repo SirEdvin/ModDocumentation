@@ -1,11 +1,15 @@
 # Scan API
 
 !!! Axises inline end
-    ![Header](../images/turtle_coordinates.png){ align=right }
+    ![Header](./../../images/turtle_coordinates.png){ align=right }
 
     Illustrative description of relative coordinate axes for turtle
 
 Scan API is an interesting one. It allows use to analyze environment around turtle in specific **radius**. However, result always will be orientation-related, direction in which turtle facing will be counted as X axis and direction at right of turtle will be counted as Z axis. This behavior will match Minecraft world axes when turtle facing east.
+
+!!! warning
+
+    `radius` should be positive integer
 
 <br/><br/><br/><br/><br/>
 
