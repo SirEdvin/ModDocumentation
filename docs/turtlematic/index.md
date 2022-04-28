@@ -4,6 +4,18 @@ Turtlematic - is mod about making turtles so useful, so you will never need any 
 
 Most of peripheral methods are collected into API methods. Every new automata core, that you will craft expand or evolve those abilities by methods and parameters will stay the same!
 
+## Current features list
+
+With this mod turtles will be able to:
+
+- Simulate player right and left click with items on blocks and mobs
+- Capture and release blocks and mobs
+- Teleporting to previously stored points in world
+- Placing chat bubbles on top of themself
+- Searching for mobs or items around turtle
+
+and more feature comes
+
 ## Getting started
 
 !!! picture inline end
