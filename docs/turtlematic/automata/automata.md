@@ -1,9 +1,16 @@
 # Automata
 
-Your first automata core, that starts your journey into mystery turtlematic world.
-
 !!! picture inline end
     ![Header](./../../images/automata_turtle.png){ align=right }
+
+Your first automata core, that starts your journey into mystery turtlematic world.
+
+## Evolving
+
+This automata core can be supplied with souls via [soul scrapper](../miscellaneous/soul_scrapper.md) to transform into:
+
+- [End automata](./end.md)
+- [Husbandry automata](./husbandry.md)
 
 ## Supported APIs
 

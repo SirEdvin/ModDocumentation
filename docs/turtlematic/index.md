@@ -15,4 +15,18 @@ To start with the main part of this mod, you need to obtain a Soul vial and star
 
 ## Improving automata core
 
-TBD
+!!! picture inline end
+    ![Header](../images/soul_scrapper_recipe.png){ align=right }
+
+    Soul scrapper recipe
+
+Crafted automata core is just the first step. To improve it you need a tool, that will allow to you to collect souls and infuse your automata core with it. This tool is called [Soul Scrapper](./miscellaneous/soul_scrapper.md). Terrifying scythe that are too evil to be used by human hand. Thankfully, you can use turtles for this dirty and evil job.
+
+<br/><br/>
+
+!!! picture inline
+    ![Header](../images/soul_scrapping_turtle.png){ align=left }
+
+    Poor cow
+
+At [automata](automata/automata.md) page you can see cores, that can be created from base one.

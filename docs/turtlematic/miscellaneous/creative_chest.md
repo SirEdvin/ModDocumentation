@@ -7,7 +7,7 @@ Why the hell in creative mode turtle can't generate items? Tell no more, this up
 
 | Function                                                | Returns | Description                                                          |
 |---------------------------------------------------------|---------|----------------------------------------------------------------------|
-| generate(item: string, count: number, nbtData: string?) | Result  | Tries to put required item with required count into turtle inventory |
+| generate(item: string, count: number, nbtData: string?) | [Result](../api/introduction.md#result)  | Tries to put required item with required count into turtle inventory |
 
 ??? "How in hell does nbtData works?"
 

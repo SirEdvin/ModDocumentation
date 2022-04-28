@@ -1,9 +1,13 @@
 # End automata
 
-Advanced automata that can harness power of the End.
-
 !!! picture inline end
     ![Header](./../../images/end_automata_turtle.png){ align=right }
+
+Advanced automata that can harness power of the End.
+
+## Obtaining
+
+Feed 3 enderman souls to [automata core](./automata.md) with [soul scrapper](../miscellaneous/soul_scrapper.md) to obtain it.
 
 ## Supported APIs
 

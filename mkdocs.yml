@@ -25,11 +25,13 @@ nav:
     - "Miscellaneous":
       - "Turtle chatter": turtlematic/miscellaneous/turtle_chatter.md
       - "Creative chest": turtlematic/miscellaneous/creative_chest.md
+      - "Soul scrapper": turtlematic/miscellaneous/soul_scrapper.md
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
   - attr_list
+  - md_in_html
   - pymdownx.tabbed:
       alternate_style: true 
   - toc:
