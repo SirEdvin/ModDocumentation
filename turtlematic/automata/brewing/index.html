@@ -13,7 +13,7 @@
     
     
       
-        <title>Husbandry automata - SirEdvin's Mods</title>
+        <title>Brewing automata - SirEdvin's Mods</title>
       
     
     
@@ -59,7 +59,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#husbandry-automata" class="md-skip">
+        <a href="#brewing-automata" class="md-skip">
           Skip to content
         </a>
       
@@ -92,7 +92,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Husbandry automata
+              Brewing automata
             
           </span>
         </div>
@@ -462,66 +462,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Husbandry automata
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../husbandry/" class="md-nav__link">
         Husbandry automata
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#obtaining" class="md-nav__link">
-    Obtaining
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#supported-apis" class="md-nav__link">
-    Supported APIs
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#notes" class="md-nav__link">
-    Notes
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -559,11 +504,73 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../brewing/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Brewing automata
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Brewing automata
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#obtaining" class="md-nav__link">
+    Obtaining
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supported-apis" class="md-nav__link">
+    Supported APIs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extra-methods" class="md-nav__link">
+    Extra methods
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#notes" class="md-nav__link">
+    Notes
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -712,6 +719,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#extra-methods" class="md-nav__link">
+    Extra methods
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#notes" class="md-nav__link">
     Notes
   </a>
@@ -732,61 +746,69 @@
                 
 
 
-<h1 id="husbandry-automata">Husbandry automata<a class="headerlink" href="#husbandry-automata" title="Permanent link">&para;</a></h1>
-<div class="admonition picture inline end">
-<p class="admonition-title">Picture</p>
-<p><img align="right" alt="Header" src="../../../images/husbandry_automata_turtle.png" /></p>
-</div>
-<p>Advanced automata that can harness power of the nature.</p>
+<h1 id="brewing-automata">Brewing automata<a class="headerlink" href="#brewing-automata" title="Permanent link">&para;</a></h1>
+<p>Automata that harness power of cleric villager, allows you to perform brew potions, throw it and curing villagers</p>
 <h2 id="obtaining">Obtaining<a class="headerlink" href="#obtaining" title="Permanent link">&para;</a></h2>
-<p>Feed 1 pig, 1 chiken, 1 sheep and 1 cow souls to <a href="../automata/">automata core</a> with <a href="../../miscellaneous/soul_scrapper/">soul scrapper</a> to obtain it.</p>
+<p>Feed cleric villager to forged automata core with <a href="../../miscellaneous/soul_scrapper/">soul scrapper</a> to obtain it.</p>
 <h2 id="supported-apis">Supported APIs<a class="headerlink" href="#supported-apis" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../api/configuration/">Configuration API</a></li>
 <li><a href="../../api/fuel/">Fuel API</a></li>
 <li><a href="../../api/operation/">Operation API</a></li>
 <li><a href="../../api/look/">Look API</a></li>
-<li><a href="../../api/interaction/">Interaction API</a>: allows interaction with blocks and some entities</li>
-<li><a href="../../api/scan/">Scan API</a>: allows interaction with items and some entities</li>
-<li><a href="../../api/capture/">Capture API</a>: only interaction with some entities</li>
+<li><a href="../../api/experience/">Experience API</a></li>
+<li><a href="../../api/scan/">Scan API</a>: only for items and zombie villagers</li>
+<li><a href="../../api/interaction/">Interaction API</a>: only for blocks and zombie villagers</li>
 </ul>
+<h2 id="extra-methods">Extra methods<a class="headerlink" href="#extra-methods" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Returns</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>brew()</td>
+<td>Result](../api/introduction.md#result)</td>
+<td>Performs brew operations, applying item in selected slot as brewing component to all potions in inventory.</td>
+</tr>
+<tr>
+<td>throwPotion(power?: number, uncertainty?: number)</td>
+<td>Result](../api/introduction.md#result)</td>
+<td>Throws potion in selected slot with provided power (controls max distance) and uncertainty (controls deviation)</td>
+</tr>
+</tbody>
+</table>
 <h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
 <details>
-<summary>Which entity are usable for husbandry automata</summary>
-<p>If at least one of criteria met:</p>
-<ul>
-<li>Entity is friendly</li>
-<li>Entity have "creature" category</li>
-<li>Entity have <code>turtlematic:husbandry_extra_animal</code> tag</li>
-</ul>
+<summary>XP notes</summary>
+<p>Brewing operations often provides some XP that will be stored in turtle</p>
 </details>
 <details>
-<summary>Extra information about animals</summary>
-<p>Sometimes<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> this automata will show extra information about animals when you use <a href="../../api/look/">Look</a> or <a href="../../api/scan/">Scan</a> APIs. For example, this is output for sheep</p>
+<summary>Extra information about zombie villagers</summary>
+<p>To help you understand power of your potions, you will receive extra information about entities with <a href="../../api/look/">Look API</a> and <a href="../../api/scan/">Scan API</a></p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-    <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;Sheep&quot;</span><span class="p">,</span>
-    <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;Sheep&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;Cow&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;Cow&quot;</span><span class="p">,</span>
     <span class="s2">&quot;category&quot;</span><span class="o">:</span> <span class="s2">&quot;CREATURE&quot;</span><span class="p">,</span>
     <span class="s2">&quot;id&quot;</span><span class="o">:</span> <span class="mf">1269</span><span class="p">,</span>
     <span class="s2">&quot;tags&quot;</span><span class="o">:</span> <span class="p">{},</span>
     <span class="s2">&quot;uuid&quot;</span><span class="o">:</span> <span class="s2">&quot;0737fd25-a1b6-4a1a-9cdd-3081e0155bb6&quot;</span><span class="p">,</span>
-    <span class="c1">//here goes extra fields</span>
-    <span class="s2">&quot;aggresive&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
-    <span class="s2">&quot;baby&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
-    <span class="s2">&quot;inLove&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
-    <span class="s2">&quot;aggresive&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
-    <span class="s2">&quot;shearable&quot;</span><span class="o">:</span> <span class="kc">true</span>
+    <span class="s2">&quot;effects&quot;</span><span class="o">:</span> <span class="p">[</span>
+        <span class="p">{</span>
+            <span class="s2">&quot;amplifier&quot;</span><span class="o">:</span> <span class="mf">0</span><span class="p">,</span>
+            <span class="s2">&quot;duration&quot;</span><span class="o">:</span> <span class="mf">1474</span><span class="p">,</span>
+            <span class="s2">&quot;isAmbient&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+            <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;Regeneration&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;technicalName&quot;</span><span class="o">:</span> <span class="s2">&quot;effects.minecraft.regeneration&quot;</span>
+        <span class="p">}</span>
+    <span class="p">]</span>
 <span class="p">}</span>
 </code></pre></div>
 </details>
-<div class="footnote">
-<hr />
-<ol>
-<li id="fn:1">
-<p>When entity class extends Animal. <code>shearable</code> available when entity class extends Animal and implements Shearable interface&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-</ol>
-</div>
 
               
             </article>
@@ -800,7 +822,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../end/" class="md-footer__link md-footer__link--prev" aria-label="Previous: End automata" rel="prev">
+        <a href="../smithing/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Smithing automata" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -809,20 +831,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              End automata
+              Smithing automata
             </div>
           </div>
         </a>
       
       
         
-        <a href="../mason/" class="md-footer__link md-footer__link--next" aria-label="Next: Mason automata" rel="next">
+        <a href="../enchanting/" class="md-footer__link md-footer__link--next" aria-label="Next: Enchanting automata" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Mason automata
+              Enchanting automata
             </div>
           </div>
           <div class="md-footer__button md-icon">
