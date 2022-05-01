@@ -18,15 +18,21 @@ nav:
       - 'Capture API': turtlematic/api/capture.md
       - 'Scan API': turtlematic/api/scan.md
       - 'Warp API': turtlematic/api/warp.md
+      - 'Experience API': turtlematic/api/experience.md
     - "Automata":
       - "Base automata": turtlematic/automata/automata.md
       - "End automata": turtlematic/automata/end.md
       - "Husbandry automata": turtlematic/automata/husbandry.md
+      - "Mason automata": turtlematic/automata/mason.md
+      - "Smithing automata": turtlematic/automata/smithing.md
+      - "Brewing automata": turtlematic/automata/brewing.md
+      - "Enchanting automata": turtlematic/automata/enchanting.md
     - "Miscellaneous":
       - "Turtle chatter": turtlematic/miscellaneous/turtle_chatter.md
       - "Creative chest": turtlematic/miscellaneous/creative_chest.md
       - "Soul scrapper": turtlematic/miscellaneous/soul_scrapper.md
 markdown_extensions:
+  - footnotes
   - admonition
   - pymdownx.details
   - pymdownx.superfences

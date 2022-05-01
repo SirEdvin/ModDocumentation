@@ -46,3 +46,5 @@ All functions, that accept _direction_ as arguments, work with objects in line o
 ### Result
 
 _Result_ are always representing result of called operation. First argument will tell you is operation was successful and second one will tell you reason why operation is failed.
+
+_Result_ can also be parametrized, for example as `Result[number]`, which means it will return operation result as first argument (or nil) and as second argument it will tell you reason why operation is failed.

@@ -14,7 +14,6 @@ Take a note, that released entity or block will be placed at front of turtle. Al
 | release()                                             | [Result](./introduction.md#result)  | Tiers to release object: create entity or place block          |
 | getCaptured()                                         | table   | Returns information about captured entity (including NBT data) |
 
-
 ??? "My modpack have blocks or entities, that crash game when captured, what I can do?"
 
     Add tag `turtlematic:capture_blacklist` to those blocks or entities.
