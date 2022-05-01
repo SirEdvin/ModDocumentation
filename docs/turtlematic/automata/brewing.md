@@ -52,3 +52,7 @@ Feed cleric villager to forged automata core with [soul scrapper](../miscellaneo
         ]
     }
     ```
+
+??? "How do I supposed to get water bottles?"
+
+    You can `use` glass bottles on water sources
