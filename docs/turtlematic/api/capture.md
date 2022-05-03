@@ -10,7 +10,7 @@ Take a note, that released entity or block will be placed at front of turtle. Al
 
 | Function                                              | Returns | Description                                                    |
 |-------------------------------------------------------|---------|----------------------------------------------------------------|
-| capture(mode: [InteractionMode](./introduction.md#interaction-mode), direction: [Direction](./introduction.md#direction)?) | [Result](./introduction.md#result)  | Tries to capture object: entity or block                       |
+| capture(mode: [InteractionMode](./introduction.md#interaction-mode), direction?: [Direction](./introduction.md#direction)) | [Result](./introduction.md#result)  | Tries to capture object: entity or block                       |
 | release()                                             | [Result](./introduction.md#result)  | Tiers to release object: create entity or place block          |
 | getCaptured()                                         | table   | Returns information about captured entity (including NBT data) |
 

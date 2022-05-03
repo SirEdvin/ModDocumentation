@@ -2,6 +2,10 @@
 
 Automata that harness power of mason villager, allows you to modify appearance of different blocks in world and inventory.
 
+Mason automata also has mod support:
+
+- [Chipped](https://www.curseforge.com/minecraft/mc-mods/chipped)
+
 ## Obtaining
 
 Feed mason villager to forged automata core with [soul scrapper](../miscellaneous/soul_scrapper.md) to obtain it.
