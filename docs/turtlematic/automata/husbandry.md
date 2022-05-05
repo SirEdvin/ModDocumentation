@@ -88,14 +88,16 @@ Feed 1 pig, 1 chiken, 1 sheep and 1 cow souls to [automata core](./automata.md) 
         "isFull": false,
         "isSmoked": false,
         "bees": [
-            "hasFlower": true,
-            "hasNectar": true,
-            "hasStung": false,
-            "health": 10,
-            "id": "minecraft:bee",
-            "name": "Bee",
-            "minOccupationTicks": 2400,
-            "ticksInHive": 283
+            {
+                "hasFlower": true,
+                "hasNectar": true,
+                "hasStung": false,
+                "health": 10,
+                "id": "minecraft:bee",
+                "name": "Bee",
+                "minOccupationTicks": 2400,
+                "ticksInHive": 283
+            }
         ]
         "tags": [
             "minecraft:mineable/axe",
