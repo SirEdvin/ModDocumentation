@@ -79,4 +79,29 @@ Feed 1 pig, 1 chiken, 1 sheep and 1 cow souls to [automata core](./automata.md) 
     }
     ```
 
+    For beehive and bee nest there a lot of extra data will be provided when you use [Look API](../api/look.md).
+
+    ```javascript
+    {
+        "honetLevel": 3,
+        "name": "Bee Nest",
+        "isFull": false,
+        "isSmoked": false,
+        "bees": [
+            "hasFlower": true,
+            "hasNectar": true,
+            "hasStung": false,
+            "health": 10,
+            "id": "minecraft:bee",
+            "name": "Bee",
+            "minOccupationTicks": 2400,
+            "ticksInHive": 283
+        ]
+        "tags": [
+            "minecraft:mineable/axe",
+            "minecraft:beehives"
+        ]
+    }
+    ```
+
 [^1]: When entity class extends Animal. `shearable` available when entity class extends Animal and implements Shearable interface
