@@ -13,6 +13,7 @@ With this mod turtles will be able to:
 - Simulate player right and left click with items on blocks and mobs
 - Gathering experience
 - In-place smelting and stonecutting (with mod interactions) for blocks
+- Pushing blocks and pulling them pack like pistons
 - Capture and release blocks and mobs
 - Searching for mobs or items around turtle
 - Harvest crops without block breaking
