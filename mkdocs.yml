@@ -32,6 +32,7 @@ nav:
       - "Creative chest": turtlematic/miscellaneous/creative_chest.md
       - "Soul scrapper": turtlematic/miscellaneous/soul_scrapper.md
       - "Piston turtle": turtlematic/miscellaneous/piston_turtle.md
+      - "Lava bucket turtle": turtlematic/miscellaneous/lava_bucket.md
 markdown_extensions:
   - footnotes
   - admonition
