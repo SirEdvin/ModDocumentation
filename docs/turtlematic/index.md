@@ -8,11 +8,26 @@ Most of peripheral methods are collected into API methods. Every new automata co
 
 With this mod turtles will be able to:
 
+### World interaction
+
 - Simulate player right and left click with items on blocks and mobs
+- Gathering experience
+- In-place smelting and stonecutting (with mod interactions) for blocks
 - Capture and release blocks and mobs
+- Searching for mobs or items around turtle
+- Harvest crops without block breaking
+
+### Extra crafting
+
+- Enchanting items and extract enchantments to books
+- Smelting items
+- Smithing recipes
+
+### Miscellaneous
+
 - Teleporting to previously stored points in world
 - Placing chat bubbles on top of themself
-- Searching for mobs or items around turtle
+- Voiding item in inventory
 
 and more feature comes
 
