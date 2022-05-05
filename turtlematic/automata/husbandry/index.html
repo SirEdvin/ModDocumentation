@@ -512,6 +512,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#extra-methods" class="md-nav__link">
+    Extra methods
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#notes" class="md-nav__link">
     Notes
   </a>
@@ -658,6 +665,34 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../miscellaneous/piston_turtle/" class="md-nav__link">
+        Piston turtle
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../miscellaneous/lava_bucket/" class="md-nav__link">
+        Lava bucket turtle
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -712,6 +747,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#extra-methods" class="md-nav__link">
+    Extra methods
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#notes" class="md-nav__link">
     Notes
   </a>
@@ -737,7 +779,7 @@
 <p class="admonition-title">Picture</p>
 <p><img align="right" alt="Header" src="../../../images/husbandry_automata_turtle.png" /></p>
 </div>
-<p>Advanced automata that can harness power of the nature.</p>
+<p>Advanced automata that can harness power of the nature. This automata provider extra capabilities of take care about peaceful mobs and crops (nether wart and cocoa beans included!).</p>
 <h2 id="obtaining">Obtaining<a class="headerlink" href="#obtaining" title="Permanent link">&para;</a></h2>
 <p>Feed 1 pig, 1 chiken, 1 sheep and 1 cow souls to <a href="../automata/">automata core</a> with <a href="../../miscellaneous/soul_scrapper/">soul scrapper</a> to obtain it.</p>
 <h2 id="supported-apis">Supported APIs<a class="headerlink" href="#supported-apis" title="Permanent link">&para;</a></h2>
@@ -750,6 +792,23 @@
 <li><a href="../../api/scan/">Scan API</a>: allows interaction with items and some entities</li>
 <li><a href="../../api/capture/">Capture API</a>: only interaction with some entities</li>
 </ul>
+<h2 id="extra-methods">Extra methods<a class="headerlink" href="#extra-methods" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Returns</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>harvest(direction?: <a href="../../api/introduction/#direction">Direction</a>)</td>
+<td><a href="../../api/introduction/#result">Result</a></td>
+<td>Tries to harvest crop. Crop will not be broken, works like right click harvest</td>
+</tr>
+</tbody>
+</table>
 <h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
 <details>
 <summary>Which entity are usable for husbandry automata</summary>
@@ -758,6 +817,14 @@
 <li>Entity is friendly</li>
 <li>Entity have "creature" category</li>
 <li>Entity have <code>turtlematic:husbandry_extra_animal</code> tag</li>
+</ul>
+</details>
+<details>
+<summary>What is count as crops</summary>
+<p>If at least one of criteria met:</p>
+<ul>
+<li>Block are extends CropBlock</li>
+<li>Block has age attribute and <code>turtlematic:husbandry_extra_crops</code></li>
 </ul>
 </details>
 <details>
@@ -776,6 +843,42 @@
     <span class="s2">&quot;inLove&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
     <span class="s2">&quot;aggresive&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
     <span class="s2">&quot;shearable&quot;</span><span class="o">:</span> <span class="kc">true</span>
+<span class="p">}</span>
+</code></pre></div>
+</details>
+<details>
+<summary>Extra information about blocks</summary>
+<p>If block has age property, extra data about it will be provided when you use <a href="../../api/look/">Look API</a>.</p>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+    <span class="s2">&quot;age&quot;</span><span class="o">:</span> <span class="mf">2</span><span class="p">,</span>
+    <span class="s2">&quot;maxAge&quot;</span><span class="o">:</span> <span class="mf">2</span><span class="p">,</span>
+    <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;Cocoa&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;tags&quot;</span><span class="o">:</span> <span class="p">[</span>
+        <span class="s2">&quot;minecraft:mineable/axe&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;turtlematic:husbandry_extra_crops&quot;</span>
+    <span class="p">]</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>For beehive and bee nest there a lot of extra data will be provided when you use <a href="../../api/look/">Look API</a>.</p>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+    <span class="s2">&quot;honetLevel&quot;</span><span class="o">:</span> <span class="mf">3</span><span class="p">,</span>
+    <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;Bee Nest&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;isFull&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+    <span class="s2">&quot;isSmoked&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+    <span class="s2">&quot;bees&quot;</span><span class="o">:</span> <span class="p">[</span>
+        <span class="s2">&quot;hasFlower&quot;</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+        <span class="s2">&quot;hasNectar&quot;</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+        <span class="s2">&quot;hasStung&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+        <span class="s2">&quot;health&quot;</span><span class="o">:</span> <span class="mf">10</span><span class="p">,</span>
+        <span class="s2">&quot;id&quot;</span><span class="o">:</span> <span class="s2">&quot;minecraft:bee&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;Bee&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;minOccupationTicks&quot;</span><span class="o">:</span> <span class="mf">2400</span><span class="p">,</span>
+        <span class="s2">&quot;ticksInHive&quot;</span><span class="o">:</span> <span class="mf">283</span>
+    <span class="p">]</span>
+    <span class="s2">&quot;tags&quot;</span><span class="o">:</span> <span class="p">[</span>
+        <span class="s2">&quot;minecraft:mineable/axe&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;minecraft:beehives&quot;</span>
+    <span class="p">]</span>
 <span class="p">}</span>
 </code></pre></div>
 </details>
