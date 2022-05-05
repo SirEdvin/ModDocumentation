@@ -20,8 +20,8 @@ Feed cleric villager to forged automata core with [soul scrapper](../miscellaneo
 
 | Function                                          | Returns | Description                                                                                                     |
 |---------------------------------------------------|---------|-----------------------------------------------------------------------------------------------------------------|
-| brew()                                            | Result](../api/introduction.md#result)  | Performs brew operations, applying item in selected slot as brewing component to all potions in inventory.      |
-| throwPotion(power?: number, uncertainty?: number) | Result](../api/introduction.md#result)  | Throws potion in selected slot with provided power (controls max distance) and uncertainty (controls deviation) |
+| brew()                                            | [Result](../api/introduction.md#result)  | Performs brew operations, applying item in selected slot as brewing component to all potions in inventory.      |
+| throwPotion(power?: number, uncertainty?: number) | [Result](../api/introduction.md#result)  | Throws potion in selected slot with provided power (controls max distance) and uncertainty (controls deviation) |
 
 ## Notes
 

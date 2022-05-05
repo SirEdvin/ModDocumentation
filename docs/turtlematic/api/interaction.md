@@ -8,5 +8,5 @@ Interaction API allows to fully simulate player left and right clicks. However, 
 
 | Function                                            | Returns | Description                                    |
 |-----------------------------------------------------|---------|------------------------------------------------|
-| use(mode: [InteractionMode](./introduction.md#interaction-mode), direction: [Direction](./introduction.md#direction)?)   | [Result](./introduction.md#result)  | Emulates rightClick with item in selected slot |
-| swing(mode: [InteractionMode](./introduction.md#interaction-mode), direction: [Direction](./introduction.md#direction)?) | [Result](./introduction.md#result)  | Emulates leftClick with item in selected slot  |
+| use(mode: [InteractionMode](./introduction.md#interaction-mode), direction?: [Direction](./introduction.md#direction))   | [Result](./introduction.md#result)  | Emulates rightClick with item in selected slot |
+| swing(mode: [InteractionMode](./introduction.md#interaction-mode), direction?: [Direction](./introduction.md#direction)) | [Result](./introduction.md#result)  | Emulates leftClick with item in selected slot  |

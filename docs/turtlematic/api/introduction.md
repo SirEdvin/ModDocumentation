@@ -18,6 +18,7 @@ Mostly this sections contains enums, that are need to be passed as strings. Enum
 | areaInteractionMode | string           | Enum with values: item, block, entity |
 | direction           | string           | Enum with values: up, down            |
 | Result              | boolean, string? | -
+| Result[T]           | T?, string?      | -
 
 ### Interaction mode
 

@@ -4,7 +4,7 @@ Look API are mostly just improved `inspect` from ComputerCraft Turtle API. It is
 
 | Function                                           | Returns | Description                                                                                                                                                                                                                          |
 |----------------------------------------------------|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| look(mode: [InteractionMode](./introduction.md#interaction-mode), direction: [Direction](./introduction.md#direction)?) | table   | Returns detailed information about first target in line of sight.  |
+| look(mode: [InteractionMode](./introduction.md#interaction-mode), direction?: [Direction](./introduction.md#direction)) | table   | Returns detailed information about first target in line of sight.  |
 
 ??? "Look output examples"
 
