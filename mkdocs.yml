@@ -39,6 +39,10 @@ nav:
       - 'Beacon': unlimitedperipheralworks/minecraft/beacon.md
       - 'Lectern': unlimitedperipheralworks/minecraft/lectern.md
       - 'Note Block': unlimitedperipheralworks/minecraft/noteblock.md
+      - 'Jukebox': unlimitedperipheralworks/minecraft/jukebox.md
+      - 'Powered rail': unlimitedperipheralworks/minecraft/powered_rail.md
+    - 'Integrations':
+      - 'TeamReborn: Energy': unlimitedperipheralworks/integrations/team_reborn_energy.md
 markdown_extensions:
   - footnotes
   - admonition

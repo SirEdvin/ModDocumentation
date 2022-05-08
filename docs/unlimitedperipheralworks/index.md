@@ -12,9 +12,9 @@ UnlimitedPeripheralWorks is addon focused on providing a lot of peripherals for 
 - [Beacon](./minecraft/beacon.md)
 - [Lectern](./minecraft/lectern.md)
 - [Note block](./minecraft/noteblock.md)
-- Jukebox
-- Powered Rail
+- [Jukebox](./minecraft/jukebox.md)
+- [Powered Rail](./minecraft/powered_rail.md)
 
 ## List of integrations
 
-- Team Reborn energy
+- [Team Reborn energy](./integrations/team_reborn_energy.md)
