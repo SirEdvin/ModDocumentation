@@ -35,6 +35,7 @@ nav:
       - "Lava bucket turtle": turtlematic/miscellaneous/lava_bucket.md
   - 'UnlimitedPeripheralWorks':
     - 'Home': unlimitedperipheralworks/index.md
+    - 'Storage': unlimitedperipheralworks/storage.md
     - 'Minecraft':
       - 'Beacon': unlimitedperipheralworks/minecraft/beacon.md
       - 'Lectern': unlimitedperipheralworks/minecraft/lectern.md

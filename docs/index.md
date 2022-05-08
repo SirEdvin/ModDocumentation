@@ -3,3 +3,4 @@
 Here I will place documentation for my current minecraft mods (mostly ComputerCraft related).
 
 [![Turtlematic](images/turtlematic.png)](./turtlematic/index.md)
+[![UnlimitedPeripheralWorks](images/unlimitedperipheralworks.png)](./unlimitedperipheralworks/index.md)
