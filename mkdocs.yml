@@ -33,6 +33,12 @@ nav:
       - "Soul scrapper": turtlematic/miscellaneous/soul_scrapper.md
       - "Piston turtle": turtlematic/miscellaneous/piston_turtle.md
       - "Lava bucket turtle": turtlematic/miscellaneous/lava_bucket.md
+  - 'UnlimitedPeripheralWorks':
+    - 'Home': unlimitedperipheralworks/index.md
+    - 'Minecraft':
+      - 'Beacon': unlimitedperipheralworks/minecraft/beacon.md
+      - 'Lectern': unlimitedperipheralworks/minecraft/lectern.md
+      - 'Note Block': unlimitedperipheralworks/minecraft/noteblock.md
 markdown_extensions:
   - footnotes
   - admonition
